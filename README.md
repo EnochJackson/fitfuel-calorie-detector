@@ -32,3 +32,31 @@ A full-stack web app that detects calories from food images, calculates your BMI
    ```bash
    git clone https://github.com/EnochJackson/fitfuel-calorie-detector.git
    cd fitfuel-calorie-detector
+
+2. **Start PHP server**
+   - php -S localhost:8000
+   - run server.py in your personal environment or cmd
+
+3. **Import MySQL DB**
+   - Open your MySQL client
+   - Import db/finalqueries.sql
+
+4. **Visit App**
+   - http://localhost:8000
+
+---
+
+## 🤖 AI Flow (Food Detection)
+
+   - User uploads image
+   - Python script (OpenCV or Gemini API) extracts food name
+   - Calorie data fetched via nutrition API
+   - Calorie is stored in DB and shown on the progress bar
+
+---
+
+## 📚 Author
+   - 👨‍💻 Enoch Jackson C
+   - 📫 enochjackson441@gmail.com
+
+
